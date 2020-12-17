@@ -1,7 +1,7 @@
 const countdown = document.querySelector('.countdown');
 
 //Set launch date (ms)
-const launchDate = new Date('Jan 1, 2021 13:00:00').getTime();
+const launchDate = new Date('Jan 1, 2021 00:00:01').getTime();
 
 console.log(launchDate)
 
@@ -17,7 +17,7 @@ const intvl = setInterval(() => {
 
     // Time calculations
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60* 24)) / (1000 * 60 * 60));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / (1000));
 
@@ -30,7 +30,7 @@ const intvl = setInterval(() => {
     `;
 
     // If launch date is past
-    if(distance < 0) {
+    if (distance < 0) {
         //Stop countdown
         clearInterval(intvl);
         //Style and output text
