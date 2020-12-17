@@ -1,0 +1,24 @@
+{
+  "name": "Coming_soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enderarrieta/Countdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enderarrieta/Countdown/issues"
+  },
+  "homepage": "https://github.com/enderarrieta/Countdown"
+}
