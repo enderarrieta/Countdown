@@ -1,7 +1,7 @@
 const countdown = document.querySelector('.countdown');
 
 //Set launch date (ms)
-const launchDate = new Date('Jan 1, 2021 00:00:01').getTime();
+const launchDate = new Date('Jan 1, 2023 00:00:01').getTime();
 
 console.log(launchDate)
 
